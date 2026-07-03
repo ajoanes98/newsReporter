@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import requests
 import resend
 from openai import OpenAI
+import json
 #from dotenv import load_dotenv
 
 # Load local .env file if it exists (for local testing)
