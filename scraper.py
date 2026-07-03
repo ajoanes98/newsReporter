@@ -1,6 +1,7 @@
 import os
 import xml.etree.ElementTree as ET
 import requests
+import resend
 from openai import OpenAI
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
