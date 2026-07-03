@@ -1,0 +1,4 @@
+requests
+openai
+sendgrid
+python-dotenv
