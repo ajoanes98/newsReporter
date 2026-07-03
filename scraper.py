@@ -3,8 +3,6 @@ import xml.etree.ElementTree as ET
 import requests
 import resend
 from openai import OpenAI
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail
 from dotenv import load_dotenv
 
 # Load local .env file if it exists (for local testing)
