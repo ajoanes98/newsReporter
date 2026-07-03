@@ -3,10 +3,10 @@ import xml.etree.ElementTree as ET
 import requests
 import resend
 from openai import OpenAI
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load local .env file if it exists (for local testing)
-load_dotenv()
+#load_dotenv()
 
 # Configuration
 COMPANIES = ["Apple (AAPL)", "Microsoft (MSFT)", "NVIDIA (NVDA)", "Tesla (TSLA)"]
