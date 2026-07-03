@@ -28,7 +28,6 @@ jobs:
       env:
         # Injects GitHub Secrets safely into environment variables
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-        FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+        RESEND_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         TO_EMAIL: ${{ secrets.TO_EMAIL }}
       run: python scraper.py
