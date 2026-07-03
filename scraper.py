@@ -8,8 +8,16 @@ from openai import OpenAI
 # Load local .env file if it exists (for local testing)
 #load_dotenv()
 
+def load_companies():
+    try:
+        with open("companies.json", "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading companies.json, falling back to default. Error: {e}")
+        return ["Apple (AAPL)"] # Fallback default if file is missing
+
 # Configuration
-COMPANIES = ["Apple (AAPL)", "Microsoft (MSFT)", "NVIDIA (NVDA)", "Tesla (TSLA)"]
+COMPANIES = load_companies()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 resend.api_key = os.environ.get("RESEND_API_KEY")
 FROM_EMAIL = "onboarding@resend.dev" # Resend gives you this default domain to test instantly!
