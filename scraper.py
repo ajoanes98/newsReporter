@@ -1,4 +1,5 @@
 import os
+import re
 import xml.etree.ElementTree as ET
 
 import requests
@@ -15,6 +16,16 @@ OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 resend.api_key = os.environ.get("RESEND_API_KEY")
 FROM_EMAIL = os.environ.get("FROM_EMAIL", "onboarding@resend.dev")
 TO_EMAIL = os.environ.get("TO_EMAIL")
+
+
+def strip_markdown_fences(text: str) -> str:
+    """Remove markdown code fences that models often wrap around HTML output."""
+    text = text.strip()
+    match = re.match(r"^```(?:\w+)?\s*\n?(.*?)\n?```$", text, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    text = re.sub(r"^```(?:\w+)?\s*\n?", "", text)
+    return re.sub(r"\n?```\s*$", "", text).strip()
 
 
 def fetch_news_rss(company: str) -> list[dict]:
@@ -57,8 +68,8 @@ def ai_filter_and_summarize(company: str, articles: list[dict]) -> str:
     You are an expert financial analyst. Below is a raw list of news articles from the last 24 hours regarding {company}.
     Your job is to ignore general product reviews, lifestyle fluff, or spam, and extract only critical, market-moving news (e.g., earnings, executive changes, mergers & acquisitions, regulatory issues, major macroeconomic shifts).
 
-    Format your response in clean HTML (wrapped in a <ul> list). Provide a 1-sentence bullet point summary for each relevant piece of news, and hyper-link the title using the provided Link.
-    If none of the articles are financially relevant, return exactly: "<p>No market-moving news today.</p>"
+    Format your response as raw HTML only (wrapped in a <ul> list). Do not use markdown or code fences. Provide a 1-sentence bullet point summary for each relevant piece of news, and hyper-link the title using the provided Link.
+    If none of the articles are financially relevant, return exactly: <p>No market-moving news today.</p>
 
     Articles:
     {articles_text}
@@ -70,7 +81,7 @@ def ai_filter_and_summarize(company: str, articles: list[dict]) -> str:
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
         )
-        return response.choices[0].message.content
+        return strip_markdown_fences(response.choices[0].message.content)
     except Exception as e:
         print(f"AI generation failed for {company}: {e}")
         return "<p>Error analyzing news via AI.</p>"
