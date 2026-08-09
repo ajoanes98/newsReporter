@@ -1,34 +1,29 @@
 import os
 import xml.etree.ElementTree as ET
+
 import requests
 import resend
+from dotenv import load_dotenv
 from openai import OpenAI
-import json
-#from dotenv import load_dotenv
 
-# Load local .env file if it exists (for local testing)
-#load_dotenv()
+from config import load_companies
+from email_template import build_digest_email
 
-def load_companies():
-    try:
-        with open("companies.json", "r") as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error loading companies.json, falling back to default. Error: {e}")
-        return ["Apple (AAPL)"] # Fallback default if file is missing
+load_dotenv()
 
-# Configuration
-COMPANIES = load_companies()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 resend.api_key = os.environ.get("RESEND_API_KEY")
-FROM_EMAIL = "onboarding@resend.dev" # Resend gives you this default domain to test instantly!
+FROM_EMAIL = os.environ.get("FROM_EMAIL", "onboarding@resend.dev")
 TO_EMAIL = os.environ.get("TO_EMAIL")
 
 
-def fetch_news_rss(company):
+def fetch_news_rss(company: str) -> list[dict]:
     """Fetches recent news items from Google News RSS."""
     clean_query = company.replace(" ", "+")
-    url = f"https://news.google.com/rss/search?q={clean_query}+stock+when:24h&hl=en-US&gl=US&ceid=US:en"
+    url = (
+        f"https://news.google.com/rss/search?q={clean_query}+stock+when:24h"
+        "&hl=en-US&gl=US&ceid=US:en"
+    )
 
     try:
         response = requests.get(url, timeout=10)
@@ -37,11 +32,10 @@ def fetch_news_rss(company):
 
         root = ET.fromstring(response.content)
         articles = []
-        # Gather up to 8 raw items to feed into the AI filter
-        for item in root.findall('.//item')[:8]:
+        for item in root.findall(".//item")[:8]:
             articles.append({
-                "title": item.find('title').text,
-                "link": item.find('link').text
+                "title": item.find("title").text,
+                "link": item.find("link").text,
             })
         return articles
     except Exception as e:
@@ -49,15 +43,15 @@ def fetch_news_rss(company):
         return []
 
 
-def ai_filter_and_summarize(company, articles):
+def ai_filter_and_summarize(company: str, articles: list[dict]) -> str:
     """Uses OpenAI to filter out fluff and write a brief financial summary."""
     if not articles:
         return "<p>No news found in the last 24 hours.</p>"
 
     client = OpenAI(api_key=OPENAI_API_KEY)
-
-    # Format raw articles into a readable string for the prompt
-    articles_text = "\n".join([f"- Title: {a['title']} | Link: {a['link']}" for a in articles])
+    articles_text = "\n".join(
+        [f"- Title: {a['title']} | Link: {a['link']}" for a in articles]
+    )
 
     prompt = f"""
     You are an expert financial analyst. Below is a raw list of news articles from the last 24 hours regarding {company}.
@@ -72,9 +66,9 @@ def ai_filter_and_summarize(company, articles):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4o-mini",  # Cost-efficient and fast
+            model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
+            temperature=0.3,
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -82,16 +76,15 @@ def ai_filter_and_summarize(company, articles):
         return "<p>Error analyzing news via AI.</p>"
 
 
-def send_html_email(html_content):
+def send_html_email(html_content: str, company_count: int) -> None:
     """Sends the formatted HTML digest via Resend."""
     try:
         params = {
             "from": FROM_EMAIL,
             "to": TO_EMAIL,
-            "subject": "🚀 Daily AI Market News Digest",
+            "subject": f"Daily Market News Digest — {company_count} companies",
             "html": html_content,
         }
-
         email = resend.Emails.send(params)
         print(f"Email sent successfully via Resend! ID: {email['id']}")
     except Exception as e:
@@ -99,18 +92,15 @@ def send_html_email(html_content):
 
 
 if __name__ == "__main__":
-    print("Starting daily market news scrape...")
-    email_body = "<h2>Daily Market News Briefing</h2><hr>"
+    companies = load_companies()
+    print(f"Starting daily market news scrape for {len(companies)} companies...")
 
-    for company in COMPANIES:
+    sections = []
+    for company in companies:
         print(f"Processing {company}...")
         raw_news = fetch_news_rss(company)
         ai_summary = ai_filter_and_summarize(company, raw_news)
+        sections.append({"company": company, "summary_html": ai_summary})
 
-        email_body += f"<h3>{company}</h3>"
-        email_body += ai_summary
-        email_body += "<br>"
-
-    email_body += "<p style='font-size:12px;color:gray;'>Automated via GitHub Actions.</p>"
-
-    send_html_email(email_body)
+    email_body = build_digest_email(sections, company_count=len(companies))
+    send_html_email(email_body, company_count=len(companies))

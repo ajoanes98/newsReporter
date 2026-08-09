@@ -4,7 +4,14 @@ on:
   schedule:
     # Runs everyday at 12:00 UTC (7:00 AM EST)
     - cron: '0 12 * * *'
-  workflow_dispatch: # Allows you to trigger it manually via the GitHub website
+  workflow_dispatch:
+    inputs:
+      companies:
+        description: >
+          Optional company list override. One company per line, or comma-separated.
+          Leave blank to use companies.json.
+        required: false
+        type: string
 
 jobs:
   run-scraper:
@@ -17,7 +24,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-node-version: '3.11'
+        python-version: '3.11'
 
     - name: Install dependencies
       run: |
@@ -26,8 +33,8 @@ jobs:
 
     - name: Run Scraper Script
       env:
-        # Injects GitHub Secrets safely into environment variables
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         TO_EMAIL: ${{ secrets.TO_EMAIL }}
+        COMPANIES: ${{ github.event.inputs.companies }}
       run: python scraper.py
