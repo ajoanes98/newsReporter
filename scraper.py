@@ -61,7 +61,7 @@ def ai_filter_and_summarize(company, articles):
 
     prompt = f"""
     You are an expert financial analyst. Below is a raw list of news articles from the last 24 hours regarding {company}.
-    Your job is to ignore general product reviews, lifestyle fluff, or spam, and extract only critical, market-moving news (e.g., earnings, executive changes, regulatory issues, major macroeconomic shifts).
+    Your job is to ignore general product reviews, lifestyle fluff, or spam, and extract only critical, market-moving news (e.g., earnings, executive changes, mergers & acquisitions, regulatory issues, major macroeconomic shifts).
 
     Format your response in clean HTML (wrapped in a <ul> list). Provide a 1-sentence bullet point summary for each relevant piece of news, and hyper-link the title using the provided Link.
     If none of the articles are financially relevant, return exactly: "<p>No market-moving news today.</p>"
