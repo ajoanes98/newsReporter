@@ -172,6 +172,10 @@ def send_html_email(html_content: str, news_count: int) -> None:
 
 
 def run_daily(sections: list[dict]) -> None:
+    os.makedirs("output", exist_ok=True)
+    with open("output/latest.json", "w") as f:
+        json.dump(sections, f, indent=2)
+        
     urgent = [s for s in sections if s.get("priority_score", 0) >= URGENT_PRIORITY_THRESHOLD]
     if urgent:
         print(f"Sending urgent Slack alert for {len(urgent)} account(s)...")
