@@ -1,3 +1,4 @@
+import json
 import os
 import re
 import xml.etree.ElementTree as ET
@@ -7,7 +8,7 @@ import resend
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from config import load_companies
+from config import VENDOR_NAME, VENDOR_PRODUCT, load_companies
 from email_template import build_digest_email
 
 load_dotenv()
@@ -54,10 +55,16 @@ def fetch_news_rss(company: str) -> list[dict]:
         return []
 
 
-def ai_filter_and_summarize(company: str, articles: list[dict]) -> str:
-    """Uses OpenAI to filter out fluff and write a brief financial summary."""
+NO_NEWS_RESPONSE = "<p>No market-moving news today.</p>"
+
+
+def ai_filter_and_summarize(company: str, articles: list[dict]) -> dict[str, str] | None:
+    """Filter articles and return news bullets plus analyst insight.
+
+    Returns None when there is no market-moving news to include in the digest.
+    """
     if not articles:
-        return "<p>No news found in the last 24 hours.</p>"
+        return None
 
     client = OpenAI(api_key=OPENAI_API_KEY)
     articles_text = "\n".join(
@@ -65,11 +72,14 @@ def ai_filter_and_summarize(company: str, articles: list[dict]) -> str:
     )
 
     prompt = f"""
-    You are an expert financial analyst. Below is a raw list of news articles from the last 24 hours regarding {company}.
-    Your job is to ignore general product reviews, lifestyle fluff, or spam, and extract only critical, market-moving news (e.g., earnings, executive changes, mergers & acquisitions, regulatory issues, major macroeconomic shifts).
+    You are an expert enterprise SaaS sales strategist for {VENDOR_NAME}, which sells {VENDOR_PRODUCT}.
+    You are supporting an account executive trying to close a Port deal with {company} in the next 2-3 months.
+    Below is a raw list of news articles from the last 24 hours regarding {company}.
+    Your job is to ignore general product reviews, lifestyle fluff, or spam, and extract only news that could affect enterprise buying decisions for developer platform, engineering productivity, or internal tooling (e.g., earnings, CTO/engineering leadership changes, mergers & acquisitions, regulatory or security incidents, digital transformation, AI adoption, cloud modernization, budget cuts, or major engineering initiatives).
 
-    Format your response as raw HTML only (wrapped in a <ul> list). Do not use markdown or code fences. Provide a 1-sentence bullet point summary for each relevant piece of news, and hyper-link the title using the provided Link.
-    If none of the articles are financially relevant, return exactly: <p>No market-moving news today.</p>
+    Return a JSON object with exactly these keys:
+    - "news_html": raw HTML only (wrapped in a <ul> list). Do not use markdown or code fences. For each relevant article, provide a 1-sentence bullet that hyper-links the title using the provided Link and briefly notes why it may matter for selling Port.io. Use an empty string if none of the articles are relevant to a Port sales motion.
+    - "insight_html": raw HTML only with 2-3 concise sentences written for a Port seller. Explain how this news affects the likelihood, timing, or urgency of closing a Port deal in the next couple months. Reference relevant buyer personas (e.g., VP Engineering, Head of Platform, DevEx, CTO, CIO) where appropriate. Call out buying signals, procurement risks, and recommended next steps for positioning Port's agentic SDLC platform. Use one or more <p> tags. Use an empty string if none of the articles are relevant to a Port sales motion.
 
     Articles:
     {articles_text}
@@ -80,20 +90,26 @@ def ai_filter_and_summarize(company: str, articles: list[dict]) -> str:
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
+            response_format={"type": "json_object"},
         )
-        return strip_markdown_fences(response.choices[0].message.content)
+        data = json.loads(response.choices[0].message.content)
+        news_html = strip_markdown_fences(data.get("news_html", "")).strip()
+        insight_html = strip_markdown_fences(data.get("insight_html", "")).strip()
+        if not news_html or news_html == NO_NEWS_RESPONSE:
+            return None
+        return {"news_html": news_html, "insight_html": insight_html}
     except Exception as e:
         print(f"AI generation failed for {company}: {e}")
-        return "<p>Error analyzing news via AI.</p>"
+        return None
 
 
-def send_html_email(html_content: str, company_count: int) -> None:
+def send_html_email(html_content: str, news_count: int) -> None:
     """Sends the formatted HTML digest via Resend."""
     try:
         params = {
             "from": FROM_EMAIL,
             "to": TO_EMAIL,
-            "subject": f"Daily Market News Digest — {company_count} companies",
+            "subject": f"Daily Market News Digest — {news_count} companies",
             "html": html_content,
         }
         email = resend.Emails.send(params)
@@ -110,8 +126,14 @@ if __name__ == "__main__":
     for company in companies:
         print(f"Processing {company}...")
         raw_news = fetch_news_rss(company)
-        ai_summary = ai_filter_and_summarize(company, raw_news)
-        sections.append({"company": company, "summary_html": ai_summary})
+        result = ai_filter_and_summarize(company, raw_news)
+        if result:
+            sections.append({"company": company, **result})
+        else:
+            print(f"No market-moving news for {company}; skipping.")
 
-    email_body = build_digest_email(sections, company_count=len(companies))
-    send_html_email(email_body, company_count=len(companies))
+    if not sections:
+        print("No market-moving news today. Skipping email.")
+    else:
+        email_body = build_digest_email(sections, news_count=len(sections))
+        send_html_email(email_body, news_count=len(sections))

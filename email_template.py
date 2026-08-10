@@ -5,17 +5,33 @@ def _format_date() -> str:
     return datetime.now(timezone.utc).strftime("%A, %B %d, %Y")
 
 
-def build_digest_email(sections: list[dict], company_count: int) -> str:
+def _build_insight_block(insight_html: str) -> str:
+    if not insight_html:
+        return ""
+    return f"""
+                      <div class="insight-box">
+                        <p class="insight-label">Sales Insight</p>
+                        <div class="insight-content">
+                          {insight_html}
+                        </div>
+                      </div>
+    """
+
+
+def build_digest_email(sections: list[dict], news_count: int) -> str:
     """Build a styled HTML email from company news sections.
 
     Each section dict should have:
       - company: str
-      - summary_html: str (HTML from AI, e.g. <ul> or <p>)
+      - news_html: str (HTML from AI, e.g. <ul>)
+      - insight_html: str (optional analyst insight HTML)
     """
     section_blocks = []
     for section in sections:
         company = section["company"]
-        summary_html = section["summary_html"]
+        news_html = section["news_html"]
+        insight_html = section.get("insight_html", "")
+        insight_block = _build_insight_block(insight_html)
         section_blocks.append(
             f"""
             <tr>
@@ -32,8 +48,9 @@ def build_digest_email(sections: list[dict], company_count: int) -> str:
                   <tr>
                     <td style="padding:18px 20px;font-size:15px;line-height:1.6;color:#334155;">
                       <div class="summary-content">
-                        {summary_html}
+                        {news_html}
                       </div>
+                      {insight_block}
                     </td>
                   </tr>
                 </table>
@@ -78,7 +95,7 @@ def build_digest_email(sections: list[dict], company_count: int) -> str:
           <tr>
             <td style="padding:16px 28px;background:#f8fafc;border-bottom:1px solid #e2e8f0;">
               <p style="margin:0;font-size:13px;color:#64748b;">
-                Tracking <strong style="color:#0f172a;">{company_count}</strong> companies &middot;
+                <strong style="color:#0f172a;">{news_count}</strong> companies with market-moving news &middot;
                 Last 24 hours &middot; AI-filtered for market-moving news
               </p>
             </td>
@@ -124,8 +141,17 @@ def build_digest_email(sections: list[dict], company_count: int) -> str:
     .summary-content a:hover {{
       text-decoration:underline;
     }}
-    .summary-content p {{
-      margin:0;color:#64748b;font-style:italic;
+    .insight-box {{
+      margin-top:16px;padding:14px 16px;background:#f0fdfa;border-left:4px solid #0f766e;border-radius:0 8px 8px 0;
+    }}
+    .insight-label {{
+      margin:0 0 8px 0;font-size:11px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;color:#0f766e;
+    }}
+    .insight-content p {{
+      margin:0 0 8px 0;font-size:14px;line-height:1.6;color:#334155;font-style:normal;
+    }}
+    .insight-content p:last-child {{
+      margin-bottom:0;
     }}
   </style>
 </body>

@@ -5,6 +5,13 @@ from pathlib import Path
 COMPANIES_FILE = Path(__file__).parent / "companies.json"
 DEFAULT_COMPANIES = ["Apple (AAPL)"]
 
+VENDOR_NAME = "Port.io"
+VENDOR_PRODUCT = (
+    "an agentic SDLC platform delivered as SaaS — internal developer portal, "
+    "software catalog, engineering standards, and workflow automation for "
+    "platform and DevEx teams"
+)
+
 
 def _parse_companies_env(raw: str) -> list[str]:
     """Parse COMPANIES env var as JSON array or newline/comma-separated list."""
