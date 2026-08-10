@@ -1,9 +1,9 @@
-name: Daily Market News Scraper
+name: Weekly Port Outreach (Slack)
 
 on:
   schedule:
-    # Runs everyday at 12:00 UTC (7:00 AM EST)
-    - cron: '0 12 * * *'
+    # Mondays at 13:00 UTC (8:00 AM EST / 9:00 AM EDT)
+    - cron: '0 13 * * 1'
   workflow_dispatch:
     inputs:
       companies:
@@ -12,9 +12,14 @@ on:
           Leave blank to use companies.json.
         required: false
         type: string
+      top:
+        description: Number of top-priority accounts to post to Slack.
+        required: false
+        default: '5'
+        type: string
 
 jobs:
-  run-scraper:
+  weekly-outreach:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,11 +36,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run Scraper Script
+    - name: Post weekly outreach to Slack
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-        TO_EMAIL: ${{ secrets.TO_EMAIL }}
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         COMPANIES: ${{ github.event.inputs.companies }}
-      run: python scraper.py
+      run: python scraper.py --weekly-outreach --top ${{ github.event.inputs.top || '5' }}

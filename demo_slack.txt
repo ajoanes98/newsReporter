@@ -1,0 +1,29 @@
+📌 PORT WEEKLY OUTREACH (preview)
+
+1. Goldman Sachs (GS) — Priority 94/100 (high)
+  Signal: ai_initiative
+  Why now: AI tooling expansion creates budget and executive attention on engineering productivity, while regulatory scrutiny adds urgency for governed SDLC workflows.
+  Action: Multi-thread Platform Engineering and compliance-aware engineering leaders; propose a catalog + scorecards pilot.
+  Talking point: Frame Port as the control plane connecting services, standards, and automation — not another point tool.
+
+2. Itaú Unibanco (ITUB) — Priority 78/100 (medium)
+  Signal: buying_trigger
+  Why now: Strong earnings reduce procurement friction for platform investments in the next quarter.
+  Action: Engage VP Engineering or Head of Platform Engineering about standardizing service ownership and SDLC workflows.
+  Talking point: Position Port as the way to accelerate safe software delivery across growing product teams without adding operational overhead.
+
+3. JPMorganChase (JPM) — Priority 72/100 (medium)
+  Signal: leadership_change
+  Why now: New CTO appointment often triggers a 90-day review of developer platform and internal tooling stack.
+  Action: Congratulate the new CTO and offer a Port platform briefing focused on engineering standards at scale.
+  Talking point: Help the new leadership team establish a software catalog and scorecard foundation early in their tenure.
+
+──────────────────────────────────────────────────
+
+🚨 URGENT PORT OUTREACH (preview)
+
+• Goldman Sachs (GS) — Priority 94/100 (high)
+  Signal: ai_initiative
+  Why now: AI tooling expansion creates budget and executive attention on engineering productivity, while regulatory scrutiny adds urgency for governed SDLC workflows.
+  Action: Multi-thread Platform Engineering and compliance-aware engineering leaders; propose a catalog + scorecards pilot.
+  Talking point: Frame Port as the control plane connecting services, standards, and automation — not another point tool.

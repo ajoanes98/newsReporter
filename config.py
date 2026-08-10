@@ -12,6 +12,9 @@ VENDOR_PRODUCT = (
     "platform and DevEx teams"
 )
 
+URGENT_PRIORITY_THRESHOLD = 90
+DEFAULT_WEEKLY_OUTREACH_COUNT = 5
+
 
 def _parse_companies_env(raw: str) -> list[str]:
     """Parse COMPANIES env var as JSON array or newline/comma-separated list."""
