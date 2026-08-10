@@ -1,5 +1,7 @@
 name: Daily Market News Scraper
-
+permissions:
+  contents: write
+  
 on:
   schedule:
     # Runs everyday at 12:00 UTC (7:00 AM EST)
@@ -39,3 +41,11 @@ jobs:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         COMPANIES: ${{ github.event.inputs.companies }}
       run: python scraper.py
+      
+    - name: Commit results
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add output/latest.json
+        git commit -m "Update output [skip ci]" || echo "No changes to commit"
+        git push
