@@ -1,35 +1,46 @@
 [
   {
     "company": "Bread Financial (BFH)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVDNNSXZqdFEwOGN6T01XUGlLSjNiTmVGWWE2akVCbnpJVlhkQ294RVhPZnV2aU5OWllOWVZncFREVktqSXVmUmdKY2xnUGxGVUlZdENwSUJkVWgyWHZad1hlMmp3WlhvMy1IcWVkNWJ5VGtZZGpFeklJdTNxa2JJY2V0ZlhPX0x2RHZ6N3ZKakVHMm1SMzlDdDBQZm9HRWYxVTVzbXJkN1o0RXJpN0dlYkVxQjdOY2JxeEZfbWZPNzZ5eEdNZnFmLWJMbFFQemZVTFN1a0h5b3hUa2wxTl9pU3VpXy1xaXBjRko0d1NGRQ?oc=5\">Bread Financial Holdings Inc. stock outperforms competitors on strong trading day</a> - This indicates potential financial stability and growth, which could lead to increased investment in internal tooling and developer platforms.</li></ul>",
-    "insight_html": "<p>The recent strong performance of Bread Financial's stock suggests a positive outlook on their financial health, which may increase their willingness to invest in tools that enhance engineering productivity and developer experience. Engaging with decision-makers such as the VP of Engineering or Head of Platform now could align Port's offerings with their potential budget expansion.</p>",
-    "priority_score": 70,
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOM3g3NmlnVVR0eDR2NXJ5OXp6cXowS1ZEeVZSNUFXbktsVUF4b1ByWDI3bWo1RHh2MlRKZ2c0VUc4Zmh0elRGdGxVNWNMUGhHTEhMeGRSM3JoX0dEN3BvWnZaZ2h6Z29DcXVWZ3AzcTFzVDdxTWQzd0NKRkR6V2Z6Y1NsQzdKTExYZkdUdHUwSmdiY3FBZlVNSkNaakdPenYzOWhKWnd3NmE2eFdsZUUtY3ZMVmpFOW9Gb3RFMHdKQ2gyelZma0h1NUZFczJoN3ZiTWNmVU4zaGdxRTZRTjJZN2xKVV96VDdqaHfSAe8BQVVfeXFMTlBmb25xazlydnBETzZfeDE5aml6TVlDTURFcjVoeEdGazZmdUtvdjc5NzRFT3p0Y0ZQMXdCNnQxRm55UjdCeDJHckRCTFlBckV4SmZMVU9KTGdwSTQzZjlPT21XcDQyaFZCSnhsbHZrdXBnVmk1em5vQVFDbHVSN0JDLVVVZk5KaGJGYzRtdFBGSEs2dC1TRnZMOEw3em9xZWQtbHNQQ1VzMWJwRndXWFlfVGUzT1FwNU5QMDZyN0N4QXZYdXNBbmJIVFpwa1F3dHRnNWRrTE1aUy1VT3pzeWNmT3dZbTkwNWRpZ1AwVlk?oc=5\">Momentum Upgrade Might Change The Case For Investing In Bread Financial (BFH)</a> - This article discusses a potential upgrade in Bread Financial's momentum, which could indicate a shift in their investment strategy, possibly impacting their internal tooling and engineering initiatives.</li></ul>",
+    "insight_html": "<p>The news about Bread Financial's potential momentum upgrade suggests that they may be looking to enhance their internal processes, including software development and engineering productivity. This creates an opportunity for Port.io to position its agentic SDLC platform as a solution to improve their developer experience and streamline workflows.</p><p>Given the urgency of closing a deal in the next couple of months, it's crucial to engage with key stakeholders like the VP of Engineering or Head of Platform to discuss how Port.io can support their digital transformation efforts.</p>",
+    "priority_score": 75,
     "urgency": "medium",
-    "signal_type": "budget_risk",
-    "why_now": "With improved financial performance, Bread Financial may be looking to enhance their development capabilities, making this an opportune time to position Port's solutions.",
-    "recommended_action": "Reach out to the VP of Engineering to discuss how Port can support their growth initiatives.",
-    "talking_point": "Given your recent stock performance, now might be a great time to explore tools that can further enhance your engineering productivity."
+    "signal_type": "buying_trigger",
+    "why_now": "The potential upgrade in Bread Financial's momentum indicates they may be more open to investing in tools that enhance engineering productivity, making this a timely opportunity for Port.io.",
+    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can help them capitalize on their momentum upgrade.",
+    "talking_point": "With Bread Financial's recent momentum upgrade, now is the perfect time to explore how Port.io can enhance your engineering productivity and streamline your development processes."
   },
   {
-    "company": "Bosch",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOdFFPcVJnMjVtbEZOekg4Nk5Qa0RMeW4yNmh0R0NzMVhSTG90VU9MMWtRYnIwRThOdjU3MENQSmJnbC1idzJDcXNZanNHeXhNZ1ZkRktvajJkNng5QmxFcGV3alVubWNrZHluRUV5RjhDUHJNTy1ybE05MG51dEhLYk5HbFNkR182djU4YmVHa00wSG9fMHc?oc=5\">Bosch\u2019s \u20ac270 Million EV Write-Down Explains Nearly All of Its Margin Drop</a> - This significant financial write-down may lead Bosch to reassess its technology investments, including internal tooling and developer platforms, making it a critical moment for Port.io to engage.</li></ul>",
-    "insight_html": "<p>The recent write-down of \u20ac270 million by Bosch indicates potential budget constraints that could impact their technology investments, including developer platforms and internal tooling. Engaging with decision-makers such as the VP of Engineering or the Head of Platform now could position Port.io favorably as Bosch looks to optimize engineering productivity amidst financial pressures.</p>",
+    "company": "Take-Two Interactive (TTWO)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1V5Ty1uRTNHaG8yd2xzdi1JY25YUW1FSWowUUFXd21UVnpJZ2xlX2RiY2NsTVJVZDVkYW9hMVdIaHhNSTZaZi1RTVRqRFhQUk82R2I1aFgwZmtqeVZsa1N6WWFLbTQ5NVZQYS12NlVYdkhJczlHaER2TEY4NnpxUFpFVXZ5T3U4aFFtM0x1eXVua1pqbkw4TFdIdjRzR3RfWW5BVWpzMUpmTU1fOGZxVjhXTkt6VkVBYW9V?oc=5\">Take-Two Shareholders Approve Governance Changes and Director Slate</a> - This governance change may indicate a shift in strategic priorities, potentially affecting budget allocations for internal tooling and developer platforms.</li></ul>",
+    "insight_html": "<p>The recent approval of governance changes and a new director slate at Take-Two could signal a reevaluation of strategic priorities, including potential investments in developer productivity tools like Port.io. Engaging with the VP of Engineering or Head of Platform now could align Port's offerings with their evolving needs.</p><p>With a focus on enhancing engineering standards and workflow automation, this is a critical time to position Port.io as a solution that can support their digital transformation initiatives.</p>",
+    "priority_score": 75,
+    "urgency": "medium",
+    "signal_type": "leadership_change",
+    "why_now": "The governance changes at Take-Two may lead to new strategic initiatives that could prioritize investments in developer platforms, making it an opportune time to engage with key decision-makers.",
+    "recommended_action": "Schedule a meeting with the VP of Engineering to discuss how Port.io can support their upcoming initiatives.",
+    "talking_point": "With recent governance changes, now is a great time to explore how Port.io can enhance your engineering productivity and support your strategic goals."
+  },
+  {
+    "company": "MSCI Inc. (MSCI)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU051UGdtR1FiRFdhZ01idmU4OU1NOXgydTg1MG9YNTBULUloWHNrMVJJN01rMlBmcVNBYVZMMVBnWFNnQXY3dTZyRHd0dkFwU3pqa3lnUEdtX0lTcU45NElFNnh5aTFhMXZQX1otdUV3U1BQcGluZV9HWE1zY21LMUJraDc2MnJfbkVpQlZoV1dkQmZfVU1IRk15WVBOc2NfV3dzb0dHcktfbXVXcnVTQld2VFBNc1Js?oc=5\">MSCI CFO to speak at Barclays Global Financial Services conference</a> - This may indicate MSCI's focus on financial growth and strategic initiatives, which could lead to increased investment in internal tooling and developer platforms.</li></ul>",
+    "insight_html": "<p>The upcoming presentation by MSCI's CFO at a major financial services conference signals a potential shift in focus towards strategic investments, which may include enhancing their internal developer tools and platforms. Engaging with the VP of Engineering or Head of Platform now could capitalize on this momentum, as they may be looking for solutions that improve developer productivity and streamline workflows.</p><p>Given the urgency of aligning with their strategic goals, it\u2019s crucial to position Port.io as a solution that can drive efficiency and support their engineering initiatives.</p>",
+    "priority_score": 75,
+    "urgency": "medium",
+    "signal_type": "leadership_change",
+    "why_now": "The CFO's engagement at a high-profile conference suggests MSCI may be evaluating their operational efficiencies and investment strategies, creating a timely opportunity for Port.io's solutions.",
+    "recommended_action": "Reach out to the VP of Engineering or Head of Platform to discuss how Port.io can enhance their developer experience and streamline their software development lifecycle.",
+    "talking_point": "With your CFO speaking at the Barclays conference, now might be the perfect time to explore how Port.io can support MSCI's strategic initiatives in engineering productivity."
+  },
+  {
+    "company": "Embraer SA (EMBJ)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPSUtmUVUwMXBtRjNJMGFBdHBELVRWbU5mTGNTSmdHeV9oY19HU09IUUdURTdUMHpGRjJlYl9rLUF4bWZlakxRME03QnAtdG1idXBCSlZIblpjQW5rWjVEUzF2UnBnT1JsWUVmZDMwcmhDSTVJYXFCSW9tQURoZ0xSMnNxSkkxc21nUVFSSmpIWGxLSVJ4YTFnSkozdTdkdw?oc=5\">Embraer (BOVESPA:EMBR3) Stock Sees Modest Fair Value Lift After Q2 Guidance Rework</a> - This article indicates a potential shift in financial outlook, which may lead to increased investment in technology and internal tooling.</li></ul>",
+    "insight_html": "<p>The recent guidance rework suggests that Embraer is adjusting its financial strategies, which could signal an increased focus on operational efficiency and technology investment. This is a crucial moment for engaging with decision-makers like the VP of Engineering or Head of Platform, as they may be looking for solutions to enhance developer productivity and streamline workflows.</p><p>Positioning Port's agentic SDLC platform as a means to support these initiatives can resonate well, especially if they are considering digital transformation efforts in light of their financial adjustments.</p>",
     "priority_score": 75,
     "urgency": "medium",
     "signal_type": "budget_risk",
-    "why_now": "With Bosch facing financial challenges, this is an opportune moment to position Port.io as a cost-effective solution that can enhance engineering efficiency and reduce operational overhead.",
-    "recommended_action": "Reach out to Bosch's engineering leadership to discuss how Port.io can help streamline their development processes and improve productivity in light of their recent financial situation.",
-    "talking_point": "Given Bosch's recent financial write-down, now is the perfect time to explore how Port.io can help optimize your engineering workflows and reduce costs."
-  },
-  {
-    "company": "JPMorganChase (JPM)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPeTVKSUZ2MmRCVjhwNUs0R3dWcUxwSHBjeGxXdzdUY1FvZ2dBYmNVNHo2OXJFQ19hR1V2OVRhOHRIcE9hX0JRV0IwNkd6ZHlVS0d5aUNfZmlockNVeF9MU0lQZnFuSmJoX1NCYVFZSFdnQmFabTNiUnRscVhwa201Q0VEa0tCSjJQTkppa05CSDgxVjljb2lqazZCTWlCNzhCVGRZR2FQcWpNakd5UUJ1UDVMOVY\">Chase begins a phased rollout of a tool showing which apps use customers\u2019 financial data</a> - This initiative indicates JPM's focus on enhancing transparency and security in their applications, which could drive the need for improved internal tooling and developer productivity solutions like Port.io.</li></ul>",
-    "insight_html": "<p>The rollout of a new tool by JPMorgan Chase that enhances transparency regarding customer data usage suggests a significant push towards improving their digital infrastructure. This aligns with the interests of engineering leaders such as the VP of Engineering and Head of Platform, who may be looking for solutions to streamline their development processes and ensure compliance.</p><p>Given this focus, there is an increased urgency for JPM to adopt platforms that can automate workflows and enforce engineering standards, making the next few months an opportune time for Port to engage with key stakeholders.</p>",
-    "priority_score": 80,
-    "urgency": "medium",
-    "signal_type": "digital_transformation",
-    "why_now": "The current push for enhanced transparency and security in JPM's applications signals a potential reevaluation of their internal tooling and developer productivity solutions, making it a timely opportunity for Port.io.",
-    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their digital transformation initiatives.",
-    "talking_point": "With JPMorgan's recent focus on enhancing application transparency, Port.io can help streamline their development processes and improve compliance."
+    "why_now": "With Embraer's recent financial guidance adjustments, there may be a window for them to invest in tools that enhance engineering productivity and efficiency, making this an opportune time for a Port deal.",
+    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their upcoming initiatives for operational efficiency.",
+    "talking_point": "Given Embraer's recent financial guidance rework, now is the perfect time to explore how Port.io can enhance your engineering workflows and drive productivity."
   }
 ]
