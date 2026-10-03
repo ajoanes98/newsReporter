@@ -1,57 +1,13 @@
 [
   {
-    "company": "Felix Technologies",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPTkY2WmZKLTFiUWhMekNBbThKSkg3c1RLUFRvU0hSTFRjZS1hVGJ3TENNZGQ3NUZka2l2TGhYemxVQU5janFSaUxzWTBEdTBvYllFaHFTOWx1RllOaGFJc1p0Ym01MmNtMGlYV3Y0MlF4ZUkxX3dVSnJQZDA5Q3F3TkZUdTY0TGJMRTkxWmI2eGVJaGJuczNpeE5rY3BFX0gxZTJLQmZUS245a0NSWjdHcW93WExmbEV3V045OVh5Uk1PcGprQkdpLVR3\">Felix Group Launches $1m Discounted Share Purchase Plan to Fund Platform Growth</a> - This indicates Felix Technologies is investing in platform growth, which may signal an increased focus on internal tooling and developer productivity, aligning with Port.io's offerings.</li></ul>",
-    "insight_html": "<p>The announcement of a $1 million share purchase plan to fund platform growth suggests that Felix Technologies is prioritizing investments in their internal systems and developer tools. This aligns well with the needs of key personas such as the VP Engineering and Head of Platform, who may be looking for solutions to enhance engineering productivity and streamline workflows.</p><p>Given this focus, there is a strong buying signal for Port.io's agentic SDLC platform, making it an opportune time to engage with Felix Technologies to discuss how our solutions can support their growth initiatives.</p>",
-    "priority_score": 85,
-    "urgency": "medium",
-    "signal_type": "budget_risk",
-    "why_now": "Felix Technologies is actively seeking to enhance their platform capabilities, which creates an immediate opportunity for Port.io to position its solutions as a critical part of their growth strategy.",
-    "recommended_action": "Reach out to the VP Engineering to discuss how Port.io can help streamline their development processes and support their platform growth initiatives.",
-    "talking_point": "With Felix Technologies focusing on platform growth, now is the perfect time to explore how Port.io can enhance your developer experience and productivity."
-  },
-  {
-    "company": "Take-Two Interactive (TTWO)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT1dNNTNDbUsxU1lRcFgyN2xyd3F0bkdVdlBOVEpyLTV3ekZtTk54ZGNxcnlTMHlJemtsN1FkT0cxdU9zOEZ2cmJOZzBQR2Uyd25qLWVuU2xVcFdxWTRKMlpqQzI4OWZKaGgzdGQ1QlFOT2F0TjNJLVZCZ3FUNmNsYi1DcnJzbER6cExnM3hYWHdWR3BYYUx6QjF3TERPUWl3WTh0eXZGZzNrZVBlc053c2Z6R1RmYzRjN3NweGM1TEY4TlQzT1NlZzdCRlVRYVFsaDUw\">Take-Two Signs Long-Term Xbox Publishing Agreement</a> - This long-term agreement with Xbox may indicate a need for improved internal tooling and developer productivity solutions to support ongoing projects, making Port.io's offerings relevant.</li></ul>",
-    "insight_html": "<p>The recent long-term publishing agreement with Xbox signals a strategic focus on collaboration and potentially increased development activity at Take-Two. This could create urgency for the VP of Engineering or Head of Platform to enhance their internal developer portal and workflow automation capabilities to streamline processes and improve developer experience.</p><p>Positioning Port.io as a solution that can help optimize their software development lifecycle will be crucial, especially as they ramp up projects under this agreement.</p>",
+    "company": "Ita\u00fa Unibanco (ITUB)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPaU0zb0l3b0NOX1NUOEF3YjRHU2FmOXdnOEd4N0QwemRoaXd2S2w3ZS10WkI3ZGpJbGJ6ZlFtWUwtZGs0em1xcTA4NTFsY1pjcWdmWmkzTTg1eVRCTnVSV1lCMllFUERvRFNJUnFFV3htellTa09SQXAzYXBuYWN4SFF4Rk85bGFlYnlQbThlOEFwTER0VUdZcmI2aTdTTllzSFc2MlJtVGhaMi1IUVNmbTF4SkJ1cGtNRTYwbkpiLS1oSEt2VjZSQ01KTno?oc=5\">Ita\u00fa Unibanco Updates Bylaws and Confirms Capital Structure in Latest SEC Filing</a> - This update may indicate a strategic shift or reallocation of resources that could impact their internal tooling and development processes.</li></ul>",
+    "insight_html": "<p>The recent update on Ita\u00fa Unibanco's bylaws and capital structure suggests potential changes in their strategic direction, which could lead to increased investment in internal tooling and developer productivity solutions. Engaging with key personas such as the VP Engineering or Head of Platform now could position Port.io favorably as they may be looking to enhance their software development lifecycle capabilities.</p><p>Given the urgency of aligning with their evolving strategy, it is critical to reach out this week to discuss how Port.io can support their goals in engineering efficiency and compliance.</p>",
     "priority_score": 75,
     "urgency": "medium",
-    "signal_type": "m_and_a",
-    "why_now": "The timing is critical as Take-Two is likely to invest in their development processes to meet the demands of their new Xbox agreement, creating an opportunity for Port.io to step in and provide solutions that enhance productivity.",
-    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their development initiatives under the new Xbox agreement.",
-    "talking_point": "With your new long-term agreement with Xbox, now is the perfect time to enhance your internal developer tools to boost productivity and streamline workflows."
-  },
-  {
-    "company": "Cencosud (CENCOSUD)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNbFVyXzBuN2ZOVElyN2JqT1VSdklhVk1yNlgxNnJnaENhYnBsQkZzSFJxODJRNlExcTBNRlNSakNzUVVnR184RjNPMWV1Z1gzbGhjclZKVThIN2NVeHktSnZTZFdxS3RHZTZQNS1aSWhFRkhQaXgzLWN4alRzdXNKNnpUbjduNXR1djF1dXZLYUVPTlhZUW5hVi1yR2RRSDVlV2d0Uk51NlltVW9uU3IwTlItbTBtN3AzZVp6UHN5S1UwNXpNdHhKUW9B?oc=5\">Cencosud reports a second-quarter loss: Cencosud stock sits 1.49 percent above its low</a> - This financial performance may indicate budget constraints that could affect their investment in internal tooling and developer platforms.</li></ul>",
-    "insight_html": "<p>Cencosud's recent financial loss could signal tighter budgets and a more cautious approach to spending on technology initiatives, which may impact their willingness to invest in Port.io's solutions in the short term. Engaging with the VP Engineering or CTO could be crucial to understand their current priorities and how Port.io can help optimize their engineering processes despite budget constraints.</p>",
-    "priority_score": 70,
-    "urgency": "medium",
-    "signal_type": "budget_risk",
-    "why_now": "Given the recent financial loss, Cencosud may be reevaluating their technology investments, making it a critical time to position Port.io as a cost-effective solution for enhancing developer productivity and efficiency.",
-    "recommended_action": "Reach out to discuss how Port.io can help streamline their SDLC processes and potentially reduce costs in the long run.",
-    "talking_point": "With Cencosud's recent financial challenges, now is the perfect time to explore how Port.io can drive efficiency and cost savings in your development workflows."
-  },
-  {
-    "company": "Goldman Sachs (GS)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNUTA3MklhRWcxSDZReW96MEViNjRIeXp3b25HWHlIMW12a1E5THU2T25NNlItWnBadDNaVEl3WFhZRlJDRVFuRWZNRFozYzFzMlNDTVpya0U2WUlmdUYtWS1XaXAtQVc3OEZ1RkV0N2VnZkpSVnhiUlpRcng3am1nNWhIYkV0TGFscWU3MDB2Y1BnajhlQVdHc1dSb25WZWExdnRqaFV2b3BQUFNWNmJiOEtCSzY4RFE?oc=5\">Goldman Sachs (GS) Enters Bear Market as Dividend Sustainability Faces Scrutiny</a> - This scrutiny may lead to budget cuts or reevaluation of internal tooling investments, increasing the urgency for efficient developer platforms like Port.io.</li></ul>",
-    "insight_html": "<p>The news about Goldman Sachs entering a bear market and facing scrutiny over dividend sustainability signals potential budget constraints, which could affect their investment in internal tooling and developer platforms. This creates an opportunity for Port.io to position itself as a cost-effective solution that enhances engineering productivity and aligns with their digital transformation goals.</p><p>Reaching out to the VP of Engineering or Head of Platform could be particularly effective, as they may be looking for ways to optimize resources and improve developer experience amidst financial pressures.</p>",
-    "priority_score": 75,
-    "urgency": "medium",
-    "signal_type": "budget_risk",
-    "why_now": "The current financial scrutiny at Goldman Sachs suggests they may be reevaluating their spending on technology and tooling, making it an opportune moment for Port.io to demonstrate ROI and efficiency gains.",
-    "recommended_action": "Schedule a meeting with the VP of Engineering to discuss how Port.io can streamline their development processes and reduce costs.",
-    "talking_point": "Given the recent scrutiny over budget at Goldman Sachs, Port.io can help optimize your developer workflows and enhance productivity without increasing expenditure."
-  },
-  {
-    "company": "Embraer SA (EMBJ)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR21PMUE5ZVJaNDBvVXc3YUFpRmhRZEtWMF8xVXVxZkRheGRmUFRSbEg0S2Z4VG55ZFZWQkRYQWdOaktUaEJnU0lfRy15bWlyVVhMRXpzUEJQQWlNTnhzZ1dacXBNZjVBNjRoSDlmcU1MeFNLbk5ZdEYtbHFVTlVXQlZ3N21BbW5zV2I1ZFRzUlZTOXhYSG9lMVhrenpFLU5NWG9RdkZuXzVCQXc?oc=5\">A record third quarter brings 41 business jet deliveries for Embraer (EMBJ).</a> - This indicates strong business performance, which may lead to increased budget allocations for internal tooling and developer productivity enhancements.</li><li><a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQTkQ0eUNxeUx1M2FzeEhOVjVJRVlnSkdnbE16RXVqRkg5NnI4N3VGUmxLLXBfUV9UZUR0SVV5RDZEdm1vdW5PSUN6MDFyNGtkVmlRRWNMTXNDeFJnSDQwcHF3UU5yUzZnbnREU0Q2THAyNmZ4NkUzWE5xQU1rWWVOOA?oc=5\">Embraer Reports 66 Aircraft Deliveries in Q3 2026</a> - Continued growth in aircraft deliveries suggests a robust operational environment that may necessitate enhanced developer platforms and workflows.</li><li><a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMWNYNXd1SjctSVZTYkpncGo2clZ6bXNjclFrVXhEWDdITDZoUEI3cG9SdnBIdTlGZjdsSjl0Z3ZmMi1YUXU2QlZNZUxCV293Zkc4cERuQzEtZVBaZXRhd1ZDUVlmOVJJRF9Gb2pSU2wtUERTRzdXYWgwNTF6cjJXdmY2eFdEY3FjWEFYZVluVmlXelRWX0ZLWHpreTYzVHNCZGh6Zi0zZGg2ZUJ6aC0xdW9ydUE4RWY5cnNMdDBqQlFsdjA?oc=5\">Embraer Posts Record Third-Quarter Deliveries, Raises 2026 Output Momentum</a> - This performance may lead to increased investments in technology solutions that enhance engineering productivity and internal developer experiences.</li></ul>",
-    "insight_html": "<p>Embraer's record third-quarter performance and increased aircraft deliveries signal a strong operational environment, likely leading to budget expansions for technology investments. This creates an opportunity for engaging with key decision-makers like the VP of Engineering or Head of Platform, who may be looking to enhance their internal developer portal and workflow automation to support growth.</p><p>Given this momentum, it\u2019s crucial to position Port.io as a solution that can streamline their software development lifecycle and improve engineering productivity, especially as they ramp up output in 2026.</p>",
-    "priority_score": 85,
-    "urgency": "high",
-    "signal_type": "buying_trigger",
-    "why_now": "With Embraer's strong financial performance and plans for increased output, they are likely to prioritize investments in tools that enhance developer efficiency and internal processes.",
-    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their scaling efforts and improve developer experience.",
-    "talking_point": "Given Embraer's recent record deliveries, now is an ideal time to enhance your developer platform to support increased operational demands."
+    "signal_type": "leadership_change",
+    "why_now": "Timing is crucial as Ita\u00fa Unibanco is likely reassessing its operational strategies, creating an opportunity for Port.io to present its solutions that align with their new direction.",
+    "recommended_action": "Reach out to the VP Engineering to discuss how Port.io can streamline their SDLC and improve developer experience in light of their recent structural changes.",
+    "talking_point": "With your recent updates to bylaws and capital structure, now is a great time to explore how Port.io can enhance your engineering productivity and internal developer processes."
   }
 ]
