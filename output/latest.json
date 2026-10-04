@@ -1,13 +1,68 @@
 [
   {
     "company": "Ita\u00fa Unibanco (ITUB)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPaU0zb0l3b0NOX1NUOEF3YjRHU2FmOXdnOEd4N0QwemRoaXd2S2w3ZS10WkI3ZGpJbGJ6ZlFtWUwtZGs0em1xcTA4NTFsY1pjcWdmWmkzTTg1eVRCTnVSV1lCMllFUERvRFNJUnFFV3htellTa09SQXAzYXBuYWN4SFF4Rk85bGFlYnlQbThlOEFwTER0VUdZcmI2aTdTTllzSFc2MlJtVGhaMi1IUVNmbTF4SkJ1cGtNRTYwbkpiLS1oSEt2VjZSQ01KTno?oc=5\">Ita\u00fa Unibanco Updates Bylaws and Confirms Capital Structure in Latest SEC Filing</a> - This update may indicate a strategic shift or reallocation of resources that could impact their internal tooling and development processes.</li></ul>",
-    "insight_html": "<p>The recent update on Ita\u00fa Unibanco's bylaws and capital structure suggests potential changes in their strategic direction, which could lead to increased investment in internal tooling and developer productivity solutions. Engaging with key personas such as the VP Engineering or Head of Platform now could position Port.io favorably as they may be looking to enhance their software development lifecycle capabilities.</p><p>Given the urgency of aligning with their evolving strategy, it is critical to reach out this week to discuss how Port.io can support their goals in engineering efficiency and compliance.</p>",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxNUHVhVjdDbU1OeEZhdElYQWZZd0gxNnlSYXdpUTRCQ3dLSmx0ZXJWam9JaW5jbkVsZ3Z2OFNGNVdFVmRfeVVJWnBqMllTcVlITmRpZTN0c0ZqOUFYYVBRMEY5eXFUQ3l5V2VIXzdyYW5mb0xMU0kxaDQ5MVdCRGVGMlJFT3pfcmhCRzZYUjNFMUk1b3ktN2ItVjNUeEtPQ0tSYUxYT01Qbk1OZXZCWDZpRVB3RXhRTk9GcWllWU4tNVRVaHRUYkdSeV9DRmkzSkI4NjA2SkRuZmY5MUpNQllRek5UbkhXcGpmc3hsaTNWRkZ4WVU?oc=5\">Ita\u00fa Unibanco Updates Bylaws and Confirms Capital Structure in Latest SEC Filing</a> - This update may indicate a strategic shift or focus that could impact their technology investments, making it a relevant point for discussing Port.io's solutions.</li></ul>",
+    "insight_html": "<p>The recent update to Ita\u00fa Unibanco's bylaws and capital structure suggests potential strategic changes that may lead to increased investments in technology and internal tooling. Engaging with the VP of Engineering or Head of Platform now could position Port.io favorably as they may be looking to enhance their developer experience and engineering productivity.</p><p>Given the timing of these changes, it's crucial to highlight how Port.io can streamline their SDLC processes and improve efficiency, addressing any emerging needs for modernization and automation.</p>",
     "priority_score": 75,
     "urgency": "medium",
     "signal_type": "leadership_change",
-    "why_now": "Timing is crucial as Ita\u00fa Unibanco is likely reassessing its operational strategies, creating an opportunity for Port.io to present its solutions that align with their new direction.",
-    "recommended_action": "Reach out to the VP Engineering to discuss how Port.io can streamline their SDLC and improve developer experience in light of their recent structural changes.",
-    "talking_point": "With your recent updates to bylaws and capital structure, now is a great time to explore how Port.io can enhance your engineering productivity and internal developer processes."
+    "why_now": "The timing is critical as Ita\u00fa Unibanco is likely evaluating its strategic direction, which could include investments in developer platforms and internal tooling.",
+    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their evolving technology strategy.",
+    "talking_point": "With your recent updates to bylaws and capital structure, now might be the perfect time to explore how Port.io can enhance your engineering productivity and streamline your SDLC."
+  },
+  {
+    "company": "Bread Financial (BFH)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNYVVxeVo2T0xoLWk0bXpHSXRaTmxiemF6OVdXTXlWU2tuekdqazJIam9telVRazU5cHhYazZTZ0Z4OFBjWXh6d0hlVlZBb3FOS1ZtbzBHZW5DU0pmRzdETXNpMEdFeGpVUlVGWlIyOGFDZzUyZ3oyZEtLYVNRN0JnM2FGUkszR2hpT0dRSmxCbkVZeFRBNjhOM0lWVHdLbUxxM3FsOWYwWWJNSWctbHhybGRhZFU3M2FKN1lVVTNhMTdtNGViaHJjbHpqNA?oc=5\">Bread Financial stock gains 1.15 percent after credit losses improve</a> - This improvement in credit losses may indicate a more stable financial outlook, potentially allowing for increased investment in technology and internal tooling, which could include Port.io's solutions.</li></ul>",
+    "insight_html": "<p>The recent improvement in Bread Financial's credit losses suggests a more favorable financial position, which could lead to increased budgets for technology investments. Engaging with the VP Engineering or Head of Platform now could capitalize on this positive momentum and position Port.io as a key player in their internal tooling strategy.</p>",
+    "priority_score": 70,
+    "urgency": "medium",
+    "signal_type": "budget_risk",
+    "why_now": "With improved financial stability, Bread Financial may be more open to investing in solutions that enhance developer productivity and streamline engineering processes, making this a timely opportunity for Port.io.",
+    "recommended_action": "Reach out to the VP Engineering to discuss how Port.io can help optimize their software development lifecycle and improve developer experience.",
+    "talking_point": "Given your recent credit loss improvements, now might be the perfect time to explore solutions that can enhance your engineering productivity and internal tooling."
+  },
+  {
+    "company": "Take-Two Interactive (TTWO)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPZDBZXy13MjJna05iS2FRVzdaRF83WERQcFU4UU5sSE1oRXZXazMwcGtHUTZ6VjlHaG1fb2dJWUxYbkNVN1hsdmNnNGhkbnk5VDQzQTZtdDVvWTFiaWo2Vk5HZEsyS0Y0UEtMdTd6OHd2dUlnLVpRS0JSMDdod01kYmJpcWFfWlBlTnFvdVFJVjgxS1dHR0l0Nmp1dXhzSno2RkE?oc=5\">Can Take Two Interactive Software (TTWO) Still Look Undervalued On Its New Xbox Deal?</a> - This article discusses Take-Two's new Xbox deal, which may indicate a shift in their strategic focus and potentially drive the need for enhanced internal tooling and developer productivity solutions.</li></ul>",
+    "insight_html": "<p>Take-Two's new Xbox deal could signal an increased focus on development efficiency and internal tooling, making this a prime opportunity for Port.io to engage with engineering leadership. The urgency to optimize their software development lifecycle may prompt decision-makers, such as the VP of Engineering or Head of Platform, to consider Port's agentic SDLC platform sooner rather than later.</p><p>With the gaming industry rapidly evolving, Take-Two may prioritize investments in developer productivity tools to stay competitive, presenting a strong buying signal for Port.io.</p>",
+    "priority_score": 75,
+    "urgency": "medium",
+    "signal_type": "m_and_a",
+    "why_now": "The timing is critical as Take-Two navigates new partnerships and strategic initiatives, which may lead to increased budget allocations for developer tools in the near term.",
+    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can streamline their development processes in light of recent strategic shifts.",
+    "talking_point": "With Take-Two's new Xbox deal, now is the perfect time to enhance your development efficiency with Port.io's agentic SDLC platform."
+  },
+  {
+    "company": "Scotiabank (BNS)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQa1V4bm41WGFneEZhdFoydHdzQU9qV3k1ajJqZ0xEYmFzdXViTnBVaG4zb0NqS1d1NGVHbjZMU1ZiUDNGYWxaYTlQejRabU9JcVBTSHpYb05mWHBfT2xZYzh2OVlORldneVh1a19PeFBlOUpuUlZlTGgzaWhjQjBpQnBPNFRmRnkzaTlvQlVHVDgzbGs?oc=5\">Bank of Nova Scotia (TSX:BNS) Is Back In Focus, What Is Catching Attention?</a> - This article may indicate a renewed focus on strategic initiatives at Scotiabank, which could include investments in technology and internal tooling.</li></ul>",
+    "insight_html": "<p>The renewed focus on strategic initiatives at Scotiabank suggests that they may be looking to enhance their engineering productivity and internal tooling. This is a strong signal for engaging with key stakeholders such as the VP of Engineering or Head of Platform, as they may be evaluating solutions like Port.io to improve their software development lifecycle.</p><p>Given the current emphasis on technology investments, reaching out this week could position Port as a timely solution to their needs.</p>",
+    "priority_score": 75,
+    "urgency": "medium",
+    "signal_type": "buying_trigger",
+    "why_now": "Scotiabank's renewed focus on strategic initiatives indicates they may be ready to invest in solutions that enhance engineering productivity, making this an opportune time for Port to engage.",
+    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their strategic technology initiatives.",
+    "talking_point": "With Scotiabank's renewed focus on strategic initiatives, now is the perfect time to explore how Port.io can enhance your engineering productivity."
+  },
+  {
+    "company": "Goldman Sachs (GS)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQWC1PTU1CTzNBeDVzVmxIeFhSNlUyNnNPVU5EZTVYYVpuV2RkWmsxZW9FdXZISm1vTVVFYmNXSUxxdlF2TUdYNmZmMzJKY2E1d2ZYQWxxb1FUTG1iQmtHRi1RQTh3bG5RMjFBZjRlTTFtS05JN0ZqUVppR0FXTm5fWm83MTlRZlRmVmNmSDBVWTZfdXFYWS0tLWU2OVU5dG12b2l4dklUeTRrQnk3LURWTUJmNkJ2cmR2R2M1NWtfajBGRGpWQnc?oc=5\">Goldman Sachs stock weighs CEO succession plans after strong quarter</a> - This indicates potential changes in leadership, which may affect strategic priorities and budgets for internal tooling and developer platforms.</li></ul>",
+    "insight_html": "<p>The news about CEO succession plans at Goldman Sachs suggests a potential shift in strategic focus, which could impact budget allocations for tools that enhance engineering productivity and developer experience. Engaging with the VP of Engineering or Head of Platform now could position Port.io favorably as they reassess their internal tooling needs during this transition.</p><p>Given the strong Q2 performance, there may be an opportunity to advocate for investment in Port.io's agentic SDLC platform as a means to further enhance productivity and streamline workflows in the engineering teams.</p>",
+    "priority_score": 75,
+    "urgency": "medium",
+    "signal_type": "leadership_change",
+    "why_now": "Timing is critical as leadership transitions can lead to reevaluations of existing tools and processes, creating openings for new solutions like Port.io.",
+    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their evolving needs during this leadership change.",
+    "talking_point": "With the upcoming leadership transition at Goldman Sachs, now is an ideal time to explore how Port.io can enhance your engineering productivity and streamline your developer workflows."
+  },
+  {
+    "company": "JPMorganChase (JPM)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPcDJkY3lZcXA5ejNrazljRkRRZTVKZ2ZTdFN1eHJEXzlDalc3aWxrbXZQSHM4bldiTUNXZTVxaWFwaU1xYmNxbzV4bEw5anNGN0FuQnZvTmtCYlFnemdMY0ZwLUN0NURmWlNYUV83Ukl0THNocS1xbWFUVW5fZUNNNzVUY0E2Z3NoSFRQMW44Tm0yNmV5UFF4WG9rTzY4dFRCaDBUTmgtd2JWSjFNc3hzNjlZNHdpTUUzRXlKMldSRXBOaGZDYTdWU1Bib3N3Zw\">JPMorgan Chase launches Michigan LIFT</a> - This initiative may indicate a focus on digital transformation and internal tooling enhancements, which aligns with Port.io's offerings.</li></ul>",
+    "insight_html": "<p>The launch of the Michigan LIFT initiative suggests that JPMorgan Chase is prioritizing digital transformation, which could create an opportunity for Port.io's agentic SDLC platform to enhance their internal developer experience and engineering productivity.</p><p>Engaging with stakeholders such as the VP of Engineering or Head of Platform could be critical, as they may be looking for solutions to streamline workflows and improve engineering standards amidst these initiatives.</p>",
+    "priority_score": 75,
+    "urgency": "medium",
+    "signal_type": "digital_transformation",
+    "why_now": "With JPMorgan Chase focusing on digital transformation initiatives, there is a heightened urgency for them to adopt tools that can enhance their engineering processes and internal tooling, making this a prime time for Port's solutions.",
+    "recommended_action": "Reach out to the VP of Engineering or Head of Platform to discuss how Port.io can support their digital transformation efforts.",
+    "talking_point": "Given JPMorgan Chase's recent launch of the Michigan LIFT initiative, now is the perfect time to explore how Port.io can enhance your internal developer portal and streamline engineering workflows."
   }
 ]
