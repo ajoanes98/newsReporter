@@ -1,35 +1,46 @@
 [
   {
     "company": "Take-Two Interactive (TTWO)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWZqYVN1ZTMtVDlFWjBUclI5SHd2T2tKUVFUOU85RDhsam84NDdwREpScWYtMVpCVEgtakV3bm1TR0R0S28xeGttTFFaQklabmVnMVBBdy1RRkxWWEVsVHY1YjJWM2NwNWJ2Mm1YcTZTRFhRdHpmNW5yUnFpTHNnMURmcWVjMXkwRHc1YXZzb0ZuZTktcmU4Z09TaGs?oc=5\">Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales</a> - This record-breaking sales achievement may lead to increased budget allocations for technology and internal tools to support ongoing development and operational efficiency.</li></ul>",
-    "insight_html": "<p>The record sales from GTA VI signal a strong financial position for Take-Two Interactive, which could lead to increased investments in developer productivity tools and internal platforms. Engaging with the VP of Engineering or Head of Platform now could align Port.io\u2019s offerings with their potential need for enhanced engineering standards and workflow automation as they scale operations.</p><p>Given the urgency to capitalize on this momentum, positioning Port.io as a solution to streamline their development processes could resonate well with decision-makers.</p>",
-    "priority_score": 85,
-    "urgency": "high",
-    "signal_type": "budget_risk",
-    "why_now": "With the significant revenue boost from GTA VI, Take-Two may be looking to reinvest in their development capabilities, making this an opportune moment for Port.io to present its value proposition.",
-    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can enhance their development processes in light of their recent success.",
-    "talking_point": "With the record-breaking launch of GTA VI, now is the perfect time for Take-Two to invest in tools that will enhance their engineering productivity and streamline workflows."
-  },
-  {
-    "company": "MSCI Inc. (MSCI)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQZnVkS2FYV1RKbzlPel9CR0xHWFhfdUFGNGNGOS05VzBPUjNCY2h6bkZmNlMtSDRMWXdSc1FISjY1QWhfUkFYTHZfbUM4cTdLa283bFViMXhielIwYUJzNUpZaVkzOFNRZHBUYTBGa3NUOFNXbko3UVd3dDQyWHV3RVRTSHFZdi1NSWkwajIyeUMxNEN6Q0stakh3\">MSCI highlights benchmark renewal as driver of U.S. equity leadership</a> - This article indicates MSCI's focus on enhancing its benchmarks, which could signal a push for improved internal tooling and engineering productivity, aligning with Port.io's offerings.</li></ul>",
-    "insight_html": "<p>MSCI's emphasis on benchmark renewal suggests a strategic initiative that could require enhanced internal developer tools and workflows, making it a timely opportunity for Port.io. Engaging with decision-makers such as the VP of Engineering or Head of Platform could uncover needs for improved developer experience and operational efficiency.</p><p>With a focus on innovation and productivity, there may be an increased urgency for MSCI to adopt solutions like Port.io's agentic SDLC platform to streamline their engineering processes.</p>",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFA0bzBJRHFfNF9oeXBGNDQ1OUFYdnV6aWpiOGI2VkM5MFlMN0I5b3hDODZWalZRVnNLRExlMWlIWVM0ZURwRzc1TDVpS0Z4aDRnYmd5OGEwZFlhXzBYZ3JvZDBLWWJlZlJ1OEdQMUxlV0xlWWdVZ3c?oc=5\">Take-Two Falls 3.7% as GTA VI's Record $3.7 Billion Debut Fails to Lift Shares</a> - This article highlights potential investor concerns following the GTA VI launch, which could impact budget allocations for internal tooling and developer platforms.</li></ul>",
+    "insight_html": "<p>The recent dip in Take-Two's stock price despite the record-breaking launch of GTA VI may signal financial caution among leadership, particularly for the VP Engineering and CTO. This could lead to a more scrutinized procurement process for new tools like Port.io, emphasizing the need for cost-effective solutions that enhance engineering productivity.</p><p>Given this context, it\u2019s crucial to position Port.io as a tool that can help streamline development processes and reduce costs in the long run, making it a timely investment for Take-Two.</p>",
     "priority_score": 75,
     "urgency": "medium",
-    "signal_type": "engineering_initiative",
-    "why_now": "The focus on benchmark renewal indicates MSCI is actively seeking improvements in their operational capabilities, which aligns with the benefits offered by Port.io's platform.",
-    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their initiatives for improving engineering productivity and internal tooling.",
-    "talking_point": "Given MSCI's recent focus on enhancing benchmarks, now is an ideal time to explore how Port.io can streamline your development processes and boost productivity."
+    "signal_type": "budget_risk",
+    "why_now": "With potential budget scrutiny following the stock dip, now is the time to present Port.io as a cost-saving solution that enhances developer efficiency.",
+    "recommended_action": "Reach out to the VP Engineering to discuss how Port.io can help streamline their development processes amidst budget considerations.",
+    "talking_point": "Given the recent stock fluctuations, now might be the perfect time to explore how Port.io can optimize your engineering workflows and drive productivity."
+  },
+  {
+    "company": "Interbank (IFS)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQXh1RjYtMWhDUmZITGZ4ZGx0TUx3VWJ0dnJLa3U1TFZ2TGZiQng3YkhQaGRiS2tJODdzaWlZZFVWSndBU1l1Z2l6R1RYTGRVbWFJbGVScTluSzZENDZ1ZUZ3N19VWWoyaW9BZzJnek54ckNzN2EyZTQwa2R6My1UbEdRZUVOVEtxZFlxdHUwaVJCeElyYlE1RTEtOWJwSWp6bWRIeDl4Z3dlNHB2OTlfMlVTbEd2TGJvUWlIeG5kQjFheHNibmRyYVc0ckFybWRHRHhpMERpaw?oc=5\">Intercorp Financial Services Reports S&P Ratings Affirmation</a> - This affirmation indicates financial stability, which may lead to increased investment in technology and internal tooling to enhance engineering productivity.</li></ul>",
+    "insight_html": "<p>The S&P ratings affirmation suggests that Interbank (IFS) is in a stable financial position, which could lead to increased budget allocations for technology investments, particularly in developer platforms and internal tooling. Engaging with the VP Engineering or Head of Platform now could leverage this opportunity to position Port.io as a solution for enhancing engineering productivity and workflow automation.</p>",
+    "priority_score": 75,
+    "urgency": "medium",
+    "signal_type": "budget_risk",
+    "why_now": "With financial stability confirmed, Interbank may be more willing to invest in tools that enhance their engineering capabilities, making this an opportune time to engage.",
+    "recommended_action": "Reach out to the VP Engineering to discuss how Port.io can support their upcoming technology initiatives.",
+    "talking_point": "Given your recent S&P ratings affirmation, now might be the perfect time to explore tools that can enhance your engineering productivity and streamline workflows."
   },
   {
     "company": "Goldman Sachs (GS)",
-    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQWHpiNjlNb19Gd1BrQUJBTjZQR194c0RoUnZYME5VQUNYa0F6LXlUaHEwZE0wVHdRNTRCYkdkYjAwQXNwNF9ETVlESnZHSUZrSXdJd01JaGVMcm5HaHg4d0RjS2ZxTkwwcmhtd0hNSjNJTzFWNnFWbEp1NHFoTlhLMkhtNlMzSHBzMHFub3BKclhBZFRnY0VFTDVkYk8tdlVtcEo0?oc=5\">Goldman Sachs Is Starting To Look Interesting (Rating Upgrade)</a> - This rating upgrade could signal increased investment in technology and internal tooling, making it a good time to position Port.io.</li></ul>",
-    "insight_html": "<p>The recent rating upgrade for Goldman Sachs indicates a potential shift in their investment strategy, which may include enhancing their developer platforms and internal tooling. This creates a timely opportunity for Port.io to engage with key stakeholders such as the VP of Engineering or Head of Platform, who may be looking to improve engineering productivity and streamline workflows.</p><p>Given the urgency of optimizing their software development lifecycle, now is the time to position Port.io's agentic SDLC platform as a solution that can help Goldman Sachs achieve their goals.</p>",
-    "priority_score": 75,
-    "urgency": "medium",
-    "signal_type": "buying_trigger",
-    "why_now": "The rating upgrade suggests Goldman Sachs may be more open to investing in tools that enhance their engineering capabilities, making this an opportune moment for Port.io to engage.",
-    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their goals for improved developer productivity.",
-    "talking_point": "With Goldman Sachs receiving a rating upgrade, now is the perfect time to explore how Port.io can enhance your engineering processes."
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxORXZ5SWRGTDNybVRQSEowY21hUWpsWHhQaGpvRll2NFQyT2xfX3JyM1pfZHVPRGc5YzdCOUc0S2wyY0t0UVN1UWwwVjdYRFdDZUMxZTlvWTJycjlfSUd2aURXZ0p0M1NWRVVpSGRsbzlOZzJSTnByNE80YmFvNFBkSDNWWmVpVVdOc0RlaW5feUNGVmVvWWt6TA?oc=5\">Goldman Sachs (GS) Backs Record $44 Billion GPU Financing Deal</a> - This significant investment in GPU technology could indicate a push towards enhanced engineering capabilities and cloud modernization, making Port.io's solutions highly relevant for improving developer productivity.</li></ul>",
+    "insight_html": "<p>The recent $44 billion GPU financing deal by Goldman Sachs signals a strong commitment to advancing their technological infrastructure, which may lead to increased demand for tools that enhance developer efficiency and streamline workflows. Engaging with key personas such as the VP of Engineering or Head of Platform could be crucial, as they may be looking for solutions like Port.io to support this modernization effort.</p><p>With this substantial investment, there is an urgent need for internal tooling that can optimize engineering processes, making it an opportune moment to position Port.io's agentic SDLC platform as a strategic asset.</p>",
+    "priority_score": 85,
+    "urgency": "high",
+    "signal_type": "ai_initiative",
+    "why_now": "Goldman Sachs' significant investment in GPU technology indicates a shift towards enhancing their engineering capabilities, creating an immediate opportunity for Port.io to align with their digital transformation goals.",
+    "recommended_action": "Reach out to the VP of Engineering to discuss how Port.io can support their modernization initiatives and improve developer productivity.",
+    "talking_point": "With Goldman Sachs investing heavily in GPU technology, now is the perfect time to explore how Port.io can enhance your engineering workflows and developer experience."
+  },
+  {
+    "company": "JPMorganChase (JPM)",
+    "news_html": "<ul><li><a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNcGZsSnc2NEFiS2tDdllhMmJ2V243b2lyQ0pUdkQ4SUpEVjlZakFtTlg3bUxVanlBWWh2RnFEd3dyaXBtOS1Eb2xmbDdWQWk1SWVoay1RS1FCQ2VYdXhzLUQzc0lCUGZySWdQY3EtOFVKc0FPV1h5dTd1MXFieW9sUkFPa1VST3NwZ3NKM0d2U0U3Rm1sOUpuOF9fV0E5WW0wenp5N1hTNmZqU1NCRTNNRGZReXFTTWtNQUQ3bmFmNjMxRnZj0gHKAUFVX3lxTE9lUXloUGRvaXRMdVhyc0NNVnVGYmVaVERkdGpLbEFCUGQ1dG9Rc3IxZUZVNHFOZWJYZmNXMUxudFc2dEZHYk5hY0lDSG9QRk92LWszOUhyeHl0YnljYzhtRlhiS0pLSTdlUkNVWkhfTDZQVlBIS0tjSzFxd0hCYVV0blM1OEg0NTZQWFJlc0FZaXlRN2ptOEZBR0hiUi1xSmZ0MVozUkpKa3BaM1VRZy1IZkpqdkFocmE5MlRreENpSjdUN0hONjFYeHc?oc=5\">JPMorgan Chase (JPM) Says Vendor Cyberattack Exposed Customer Data</a> - This incident highlights the importance of robust internal tooling and security measures, which Port.io can enhance for JPM's development teams.</li><li><a href=\"https://news.google.com/rss/articles/CBMiowJBVV95cUxNSXJQX1hFT2ZzYnV4ejl1N2JFd3dpZlVzV0pJT3pwYUxXRUd4STNSX2FzckVOWkxwa21QUTIzYlRWRXFjNGNHd2Z5QnJZTUhqNm1HY0ZwSlA5T0R5OVpvdjAzUkoxZ0VJUlJlLVNTZ1RRMjJLeHJEcmprRWNRa2kyT2YtWHJmcEdxUGpvTHJTRWpDZVNXRlNUMGdqalZDT19JRzlIMGtDNlY5RUEta0tIWEhCMnZDQVVwY3hlYUlya2FOa1A5dFN3MVlfZW84RUdxamxUT2JibTZfdG9tc3VaVDhXSHZ4SExzTzFlbGhJOGh0dmF2ajhFdWp1SnJPSkdKVnlaYjYzY2QzTjg1c3MtMFMxSkVIdVoteXFoR29VZGJLS3M?oc=5\">JPMorgan Says $290B AI-Fueled IPO Wave Is A \u2018Drop In The Bucket\u2019 For $70 Trillion Stock Market</a> - This indicates JPM's commitment to AI and digital transformation, suggesting a potential interest in platforms that can enhance engineering productivity and DevEx.</li></ul>",
+    "insight_html": "<p>The recent vendor cyberattack that exposed customer data may prompt JPMorgan's leadership, particularly the CTO and CIO, to prioritize investments in security and internal tooling, creating a strong buying signal for Port.io's platform. Additionally, JPM's focus on AI and digital transformation indicates a willingness to adopt innovative solutions that can streamline their development processes.</p><p>Given these developments, there is an increased urgency for Port to engage with JPM's engineering and platform teams to position our agentic SDLC platform as a solution to enhance security and productivity.</p>",
+    "priority_score": 85,
+    "urgency": "high",
+    "signal_type": "compliance_urgency",
+    "why_now": "The urgency to improve security and streamline development processes is heightened following the recent cyberattack, making it an opportune time for Port.io to engage with JPM's decision-makers.",
+    "recommended_action": "Schedule a meeting with JPM's engineering leadership to discuss how Port.io can enhance their internal developer portal and security measures.",
+    "talking_point": "In light of the recent cyberattack, Port.io can help JPMorgan strengthen their development security and improve engineering productivity."
   }
 ]
